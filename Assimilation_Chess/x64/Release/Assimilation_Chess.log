@@ -1,0 +1,12 @@
+﻿  main.cpp
+c:\users\acciente\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\ChessBoard.h(77): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\acciente\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\ChessBoard.h(172): warning C4244: “-=”: 从“double”转换到“int”，可能丢失数据
+c:\users\acciente\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\ChessBoard.h(213): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\acciente\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\ChessBoard.h(308): warning C4244: “-=”: 从“double”转换到“int”，可能丢失数据
+c:\users\acciente\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\ChessBoard.h(1448): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\acciente\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\Function.h(75): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  正在生成代码
+  All 568 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成代码的生成
+  Assimilation_Chess.vcxproj -> C:\Users\Acciente\OneDrive\大学\C++ 源代码\同化棋\Assimilation_Chess\x64\Release\Assimilation_Chess.exe
+  Assimilation_Chess.vcxproj -> C:\Users\Acciente\OneDrive\大学\C++ 源代码\同化棋\Assimilation_Chess\x64\Release\Assimilation_Chess.pdb (Full PDB)

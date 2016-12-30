@@ -1,0 +1,8 @@
+﻿  main.cpp
+c:\users\acciente\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\chessboard.h(77): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\acciente\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\chessboard.h(172): warning C4244: “-=”: 从“double”转换到“int”，可能丢失数据
+c:\users\acciente\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\chessboard.h(210): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\acciente\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\chessboard.h(305): warning C4244: “-=”: 从“double”转换到“int”，可能丢失数据
+c:\users\acciente\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\function.h(64): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Assimilation_Chess.vcxproj -> C:\Users\Acciente\OneDrive\大学\C++ 源代码\同化棋\Assimilation_Chess\x64\Debug\Assimilation_Chess.exe
+  Assimilation_Chess.vcxproj -> C:\Users\Acciente\OneDrive\大学\C++ 源代码\同化棋\Assimilation_Chess\x64\Debug\Assimilation_Chess.pdb (Partial PDB)

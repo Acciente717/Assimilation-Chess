@@ -1,0 +1,10 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Assimilation_Chess-DESKTOP-6KTO624.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+c:\users\16250\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\chessboard.h(77): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\16250\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\chessboard.h(172): warning C4244: “-=”: 从“double”转换到“int”，可能丢失数据
+c:\users\16250\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\chessboard.h(213): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\16250\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\chessboard.h(308): warning C4244: “-=”: 从“double”转换到“int”，可能丢失数据
+c:\users\16250\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\chessboard.h(1448): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+c:\users\16250\onedrive\大学\c++ 源代码\同化棋\assimilation_chess\assimilation_chess\function.h(75): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  Assimilation_Chess.vcxproj -> C:\Users\16250\OneDrive\大学\C++ 源代码\同化棋\Assimilation_Chess\Debug\Assimilation_Chess.exe
+  Assimilation_Chess.vcxproj -> C:\Users\16250\OneDrive\大学\C++ 源代码\同化棋\Assimilation_Chess\Debug\Assimilation_Chess.pdb (Partial PDB)
