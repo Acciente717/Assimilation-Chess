@@ -1948,7 +1948,14 @@ public:
 	{
 		// 存储地址更新
 		strcpy_s(basicAddress, argv[0]);
-		basicAddress[strlen(basicAddress) - 22] = '\0';
+		for (int i = strlen(basicAddress); i >= 0; i--)
+		{
+			if (basicAddress[i] == '\\')
+			{
+				basicAddress[i + 1] = '\0';
+				break;
+			}
+		}
 	}
 
 	// 生成图形界面

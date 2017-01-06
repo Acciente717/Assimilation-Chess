@@ -173,8 +173,8 @@ WeightedVector AIJudge(PlainBoard tempBoard, int tempDepth, int setDepth, int cu
 							}
 
 							// 随机化
-							//if (tempDepth == 0)
-							//	tempWeight += rand() / 100;
+							if (tempDepth == 0)
+								tempWeight += rand() / 100;
 
 							// 比较此次枚举向量与已有最佳向量的优劣
 							if (tempWeight > tempVector.weight)
@@ -461,7 +461,20 @@ protected:
 	// 路径重置
 	void AddressReset()
 	{
-		address[strlen(address) - 22] = '\0';
+		bool flag = false;
+		for (int i = strlen(address); i >= 0; i--)
+		{
+			if (address[i] == '\\')
+			{
+				if (!flag)
+					flag = true;
+				else
+				{
+					address[i + 1] = '\0';
+					break;
+				}
+			}
+		}
 	}
 
 public:
@@ -516,7 +529,14 @@ public:
 
 		// 存储地址更新
 		strcpy_s(address, argv[0]);
-		address[strlen(address) - 22] = '\0';
+		for (int i = strlen(address); i >= 0; i--)
+		{
+			if (address[i] == '\\')
+			{
+				address[i + 1] = '\0';
+				break;
+			}
+		}
 
 		// 记忆数据初始化
 		memcpy(memBoard, board, sizeof(board));
@@ -1446,12 +1466,12 @@ public:
 	void RandomAIStyle()
 	{
 		srand(time(0));
-		int ran = rand() % 4;
-		int copyStyle[6] = { 115694 , 123091 ,138167 ,100713 ,51506 ,23551 };
-		int assimilationStyle[6] = { 207082 ,217662, 193060, 208450,178570,151395 };
+		int ran = rand() % 6;
+		int copyStyle[6] = { 115694 , 123091 ,138167 ,100713 ,105504 ,119718 };
+		int assimilationStyle[6] = { 207082 ,217662, 193060, 208450,198214,207780 };
 		double biasStyle[6][6] = { { 0.981614, 1.09074, 1.0564, 1.08703, 1, 1}, { 0.925903, 1.14159, 1.04506, 1.07958, 1, 1} ,
 								   { 0.950083, 1.10536, 1.04174, 1.1278, 1, 1 },{ 0.98816, 1.04445, 1.07204, 1.03039, 1, 1 },
-								   { 0.540355, 0.742633, 0.653016, 0.719037, 1, 1 }, { 0.571544, 0.629665, 0.550777, 0.685479, 1, 1 } };
+								   { 0.986592, 1.00001, 0.890439, 0.908744, 1, 1 }, { 1.00141, 1.05163, 1.0276, 1.05676, 1, 1 } };
 		ASSILIMATION_WEIGHT = assimilationStyle[ran];
 		COPY_WEIGHT = copyStyle[ran];
 		for (int i = 0; i < 6; i++)
